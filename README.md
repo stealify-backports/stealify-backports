@@ -29,3 +29,10 @@ git subrepo push
 git fetch merge upstream to backports and then merge into the subrepos 
 repeat 
 ```
+
+
+## Cheats
+List repos of a org or use and filter them 
+```
+gh repo list sindresorhus --source --no-archived --language javascript
+```
